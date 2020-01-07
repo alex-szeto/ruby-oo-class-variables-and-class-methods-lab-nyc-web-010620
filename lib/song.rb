@@ -38,7 +38,11 @@ class Song
   end
   
   def self.genre_count
-    return @@genres.length
+    result = Hash.new(0)
+    @@genres.each{ |key, value|
+      genre[key] += 1
+    }
+    return result
   end
   
 end
