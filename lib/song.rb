@@ -12,7 +12,7 @@ class Song
   end
   
   def name
-    return name
+    return @name
   end
   
 end
