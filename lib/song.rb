@@ -45,4 +45,13 @@ class Song
     return result
   end
   
+  def self.artist_count
+    result = Hash.new(0)
+    @@artists.each{ |key, value|
+      result[key] += 1
+    }
+    return result
+  end
+  
+  
 end
