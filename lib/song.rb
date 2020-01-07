@@ -30,11 +30,11 @@ class Song
   end
   
   def self.artists
-    return @@artists
+    return @@artists.unique
   end
   
   def self.genre
-    return @@genre
+    return @@genre.unique
   end
   
 end
