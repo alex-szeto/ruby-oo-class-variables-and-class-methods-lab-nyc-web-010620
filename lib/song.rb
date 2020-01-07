@@ -8,6 +8,7 @@ class Song
     @@count += 1
     @@artists << artists
     @@genres << genre
+    @name = name
   end
   
   def name
