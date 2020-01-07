@@ -29,4 +29,12 @@ class Song
     return @@count
   end
   
+  def self.artists
+    return @@artists
+  end
+  
+  def self.genre
+    return @@genre
+  end
+  
 end
