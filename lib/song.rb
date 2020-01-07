@@ -26,7 +26,7 @@ class Song
   end
   
   def count
-    return self.count
+    return @@count
   end
   
 end
