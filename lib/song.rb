@@ -33,7 +33,7 @@ class Song
     return @@artists.uniq
   end
   
-  def self.genre
+  def self.genres
     return @@genres.uniq
   end
   
