@@ -1,2 +1,2 @@
 class Song
-  name 
+  attr_accessor  
