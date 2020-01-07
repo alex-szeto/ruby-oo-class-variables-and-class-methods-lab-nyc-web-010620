@@ -10,5 +10,8 @@ class Song
     @@genres << genre
   end
   
+  def name
+    self.name
+  end
   
 end
