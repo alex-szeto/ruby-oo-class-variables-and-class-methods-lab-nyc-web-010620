@@ -15,4 +15,8 @@ class Song
     return @name
   end
   
+  def artist
+    return @artist
+  
+  
 end
